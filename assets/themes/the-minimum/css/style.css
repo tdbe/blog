@@ -673,6 +673,10 @@ pre {
     line-height: 52px;
     letter-spacing: -1px;
   }
+    .the-header .tagline, .the-header .tagline a {
+    font-size: 32px;
+    line-height: 40px;
+  }
   .the-header .nav-global {
     margin-top: 1.625em;
     letter-spacing: -0.31em;
@@ -850,3 +854,29 @@ pre {
     margin-right: 360px;
   }
 }
+
+/*My css override. TODO: per device styles if necessary*/
+#siteHeader_m{
+	position: relative;
+	float: right;
+	text-align: right;
+	direction:ltr;
+	text-align:justify;
+	margin-top: -8px;
+}
+
+.the-header{
+	height: 100px;
+}
+
+.entry-title{
+	float: right !important;
+	text-align: right;
+	direction:ltr;
+	text-align:justify;
+	right: 0px;
+	margin-right:-100px;
+	padding-right: 0px;
+	display: block!important;
+}
+
